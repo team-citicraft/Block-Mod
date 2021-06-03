@@ -3,14 +3,14 @@ loaderVersion="[36,)"
 license="All rights reserved"
 
 [[mods]]
-modId="tbbm"
+modId="tbvm"
 version="${file.jarVersion}"
-displayName="Block Mod"
+displayName="Vehicle Mod"
 logoFile="examplemod.png"
 credits="To the team that helped create the mod"
-authors="WynnKunGz, Shadow"
+authors="PurplePineapple, WynnKunGz, Shadow"
 description='''
-Adds the building blocks for the modpack we are making
+Adds the blocks for the modpack we are making
 '''
 
 [[dependencies.examplemod]]
