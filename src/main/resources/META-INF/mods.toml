@@ -3,7 +3,7 @@ loaderVersion="[36,)"
 license="All rights reserved"
 
 [[mods]]
-modId="tbvm"
+modId="tbbm"
 version="${file.jarVersion}"
 displayName="Vehicle Mod"
 logoFile="examplemod.png"
