@@ -43,7 +43,7 @@ public class BlocksMod
     public static final ItemGroup TAB = new ItemGroup("BlockModTab") {
         @Override
         public ItemStack createIcon() {
-            return new ItemStack(Items.OAK_LOG);
+            return new ItemStack(BlockInit.H_S_W.get());
         }
     };
 }

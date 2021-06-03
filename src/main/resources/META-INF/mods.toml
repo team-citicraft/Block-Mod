@@ -5,7 +5,7 @@ license="All rights reserved"
 [[mods]]
 modId="tbbm"
 version="${file.jarVersion}"
-displayName="Vehicle Mod"
+displayName="Blocks Mod"
 logoFile="examplemod.png"
 credits="To the team that helped create the mod"
 authors="PurplePineapple, WynnKunGz, Shadow"
