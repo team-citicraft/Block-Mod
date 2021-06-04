@@ -12,5 +12,5 @@ public class BlockInit {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS,
             BlocksMod.MOD_ID);
 
-    public static final RegistryObject<Block> H_S_W = BLOCKS.register("h_s_w", () -> new Block(AbstractBlock.Properties.from(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> H_S_W = BLOCKS.register("h_s_w", () -> new Block(AbstractBlock.Properties.copy(Blocks.OAK_PLANKS)));
 }
