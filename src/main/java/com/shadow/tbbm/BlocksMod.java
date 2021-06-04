@@ -1,8 +1,10 @@
 package com.shadow.tbbm;
 
-import com.shadow.tbbm.init.BlockInit;
-import com.shadow.tbbm.init.ItemInit;
-import net.minecraft.item.*;
+import com.shadow.tbbm.core.init.BlockInit;
+import com.shadow.tbbm.core.init.ItemInit;
+import com.shadow.tbbm.core.itemgroup.MainItemGroup;
+import net.minecraft.item.BlockItem;
+import net.minecraft.item.Item;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -35,15 +37,11 @@ public class BlocksMod
     @SubscribeEvent
     public static void onRegisterItems(final RegistryEvent.Register<Item> event) {
         BlockInit.BLOCKS.getEntries().stream().map(RegistryObject::get).forEach(block -> {
-            event.getRegistry().register(new BlockItem(block, new Item.Properties().group(BlocksMod.TAB))
+            event.getRegistry().register(new BlockItem(block, new Item.Properties().tab(MainItemGroup.MAIN))
                     .setRegistryName(block.getRegistryName()));
+
         });
     }
 
-    public static final ItemGroup TAB = new ItemGroup("BlockModTab") {
-        @Override
-        public ItemStack createIcon() {
-            return new ItemStack(BlockInit.H_S_W.get());
-        }
-    };
+
 }

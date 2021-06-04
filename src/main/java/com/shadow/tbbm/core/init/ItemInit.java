@@ -1,4 +1,4 @@
-package com.shadow.tbbm.init;
+package com.shadow.tbbm.core.init;
 
 import com.shadow.tbbm.BlocksMod;
 import net.minecraft.item.Item;

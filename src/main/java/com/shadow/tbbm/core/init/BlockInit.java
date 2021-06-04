@@ -1,11 +1,9 @@
-package com.shadow.tbbm.init;
+package com.shadow.tbbm.core.init;
 
 import com.shadow.tbbm.BlocksMod;
-import com.shadow.tbbm.blockfeatures.RotBlock;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
-import net.minecraft.block.StairsBlock;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
