@@ -21,8 +21,10 @@ public class ModBlockStateProvider extends BlockStateProvider {
         // simpleBlock(BlockInit.BLACK_DIAMOND_BLOCK.get());
         //for the axis you dont need to do anything ModItemModelProvider
 
-            axisBlock(BlockInit.H_S_W.get(), modLoc("block/side/h_s_w_s"), modLoc("block/side/s_w_t"));
+            //it doesnt work how it should... why should i keep it in?
+            //horizontalBlock(BlockInit.H_S_W.get(), modLoc("block/side/h_s_w_s"), modLoc("block/side/s_w_t"), modLoc("block/side/s_w_t"));
 
+            //horizontalFaceBlock(BlockInit.H_S_W.get(), , 180);
 
     }
 }

@@ -20,7 +20,7 @@ public class ModLootTables extends LootTableProvider {
 
     @Override
     public String getName() {
-        return "Ben Ten Mob Mod - Loot Tables";
+        return "Loot Tables";
     }
     @Override
     protected List<Pair<Supplier<Consumer<BiConsumer<ResourceLocation, LootTable.Builder>>>, LootParameterSet>> getTables() {
