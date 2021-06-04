@@ -4,7 +4,7 @@ license="All rights reserved"
 
 [[mods]]
 modId="tbbm"
-version="${file.jarVersion}"
+version="1.0.0"
 displayName="Blocks Mod"
 logoFile="examplemod.png"
 credits="To the team that helped create the mod"
