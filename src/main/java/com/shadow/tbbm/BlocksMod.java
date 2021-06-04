@@ -12,15 +12,17 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.registries.IForgeRegistry;
+import net.minecraftforge.registries.IForgeRegistryEntry;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 // Testing the WebHook
 
 @Mod("tbbm")
-@Mod.EventBusSubscriber(modid = BlocksMod.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
-public class BlocksMod
-{
+@Mod.EventBusSubscriber(modid = BlocksMod.MOD_ID,  bus = Mod.EventBusSubscriber.Bus.MOD)
+public class BlocksMod {
 
     private static final Logger LOGGER = LogManager.getLogger();
     public static final String MOD_ID = "tbbm";
@@ -42,6 +44,10 @@ public class BlocksMod
 
         });
     }
+    private static <T extends IForgeRegistryEntry<T>> DeferredRegister<T> create(IForgeRegistry<T> registry) {
+        return DeferredRegister.create(registry, MOD_ID);
+    }
+
 
 
 }

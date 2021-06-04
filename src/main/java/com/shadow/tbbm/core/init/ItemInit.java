@@ -14,5 +14,5 @@ public class ItemInit {
             () -> new Item(new Item.Properties().tab(MainItemGroup.MAIN)));
 
     public static final RegistryObject<Item> SAW = ITEMS.register("saw",
-            () -> new Item(new Item.Properties().tab    (MainItemGroup.MAIN)));
+            () -> new Item(new Item.Properties().tab(MainItemGroup.MAIN)));
 }

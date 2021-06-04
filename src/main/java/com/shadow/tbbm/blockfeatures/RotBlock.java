@@ -9,13 +9,13 @@ import net.minecraft.state.StateContainer;
 import net.minecraft.util.Direction;
 
 public class RotBlock extends Block {
-    public static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
+    public static final DirectionProperty FACING = HorizontalBlock.FACING;
     public RotBlock(Properties properties) {
         super(properties);
-        this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH));
+        this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
     }
     public BlockState getStateForPlacement(BlockItemUseContext context) {
-        return this.getDefaultState().with(FACING, context.getPlacementHorizontalFacing().getOpposite());
+        return this.defaultBlockState().setValue(FACING, context.getHorizontalDirection().getOpposite());
     }
     protected void fillStateContainer(StateContainer.Builder<Block, BlockState> builder) {
         builder.add(FACING);
