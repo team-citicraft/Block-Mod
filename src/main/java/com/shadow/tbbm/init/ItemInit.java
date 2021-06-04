@@ -11,4 +11,7 @@ public class ItemInit {
 
     public static final RegistryObject<Item> PANEL = ITEMS.register("panel",
             () -> new Item(new Item.Properties().group(BlocksMod.TAB)));
+
+    public static final RegistryObject<Item> SAW = ITEMS.register("saw",
+            () -> new Item(new Item.Properties().group(BlocksMod.TAB)));
 }
