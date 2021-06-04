@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "___",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "planks"
+    },
+    "_": {
+      "item": "tbbm:panel"
+    }
+  },
+  "result": {
+    "item": "tbbm:h_s_w",
+    "count": 6
+  }
+}
