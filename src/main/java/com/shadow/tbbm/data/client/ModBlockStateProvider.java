@@ -21,7 +21,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         // simpleBlock(BlockInit.BLACK_DIAMOND_BLOCK.get());
         //for the axis you dont need to do anything ModItemModelProvider
 
-        axisBlock(BlockInit.H_S_W.get(),modLoc("block/h_s_w_s"), modLoc("block/s_w_t"));
+            axisBlock(BlockInit.H_S_W.get(), modLoc("block/side/h_s_w_s"), modLoc("block/side/s_w_t"));
 
 
     }
