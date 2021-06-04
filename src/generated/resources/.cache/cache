@@ -2,3 +2,6 @@
 6ab72a00e9eda8144a62c9f302701cab8480494b assets/tbbm/models/block/h_s_w.json
 c550dc2c062cffcf9b8865a5a67ca10a4e95fb61 assets/tbbm/models/block/h_s_w_horizontal.json
 2e5cad8d64ae8fe029b1137f31a039412e8a80e3 assets/tbbm/models/item/h_s_w.json
+9e06a9877825bc7d2a948623818c3a597f6f5410 assets/tbbm/models/item/panel.json
+4c7bb62557c3a03a6535e6014c45c6fa8ecc9fe1 assets/tbbm/models/item/saw.json
+a4dc7cff72e6a22411fc873856445c03816e1715 data/tbbm/loot_tables/blocks/h_s_w.json
