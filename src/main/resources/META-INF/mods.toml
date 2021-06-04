@@ -8,12 +8,12 @@ version="1.0.0"
 displayName="Blocks Mod"
 logoFile="examplemod.png"
 credits="To the team that helped create the mod"
-authors="PurplePineapple, WynnKunGz, Shadow"
+authors="PurplePineapple, WynnKunGz, Shadow, RealYusufIsmail"
 description='''
 Adds the blocks for the modpack we are making
 '''
 
-[[dependencies.examplemod]]
+[[dependencies.tbbm]]
     modId="forge"
     mandatory=true
     versionRange="[36,)"
@@ -22,10 +22,10 @@ Adds the blocks for the modpack we are making
 
     side="BOTH"
 
-[[dependencies.examplemod]]
+[[dependencies.tbbm]]
     modId="minecraft"
     mandatory=true
 
-    versionRange="[1.16.5,1.17)"
+    versionRange="[1.16.5,)"
     ordering="NONE"
     side="BOTH"
