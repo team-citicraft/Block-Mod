@@ -17,7 +17,7 @@ public class ModBlockTagsProvider extends BlockTagsProvider {
 
     @Override
     protected void addTags() {
-  //logs
+        //logs
         //blocks
         tag(TagsInit.Blocks.STORAGE_BLOCK_H_S_W).add(BlockInit.H_S_W.get());
         tag(Tags.Blocks.STORAGE_BLOCKS).addTag(TagsInit.Blocks.STORAGE_BLOCK_H_S_W);
