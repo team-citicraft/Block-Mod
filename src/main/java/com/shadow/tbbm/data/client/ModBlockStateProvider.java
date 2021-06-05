@@ -3,6 +3,7 @@ package com.shadow.tbbm.data.client;
 
 
 import com.shadow.tbbm.BlocksMod;
+import com.shadow.tbbm.core.init.BlockInit;
 import net.minecraft.data.DataGenerator;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
@@ -21,6 +22,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         //for the axis you dont need to do anything ModItemModelProvider
 
         //does work Have to E
+        horizontalBlock(BlockInit.H_S_W.get(), modLoc("block/side/h_s_w_s"), modLoc("block/side/s_w_t"), modLoc("block/side/s_w_t"));
 
             //horizontalFaceBlock(BlockInit.H_S_W.get(), , 180);
 
