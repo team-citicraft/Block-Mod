@@ -16,7 +16,7 @@ public final class DataGenerators {
 
 
     @SubscribeEvent
-    public static void gatherData(GatherDataEvent event) {
+        public static void gatherData(GatherDataEvent event) {
         DataGenerator gen = event.getGenerator();
         ExistingFileHelper existingFileHelper = event.getExistingFileHelper();
 
