@@ -22,8 +22,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
         //for the axis you dont need to do anything ModItemModelProvider
 
         //does work Have to Run data
-        axisBlock(BlockInit.H_S_W.get(),modLoc("block/h_s_w_s"), modLoc("block/s_w_t"));
 
+        axisBlock(BlockInit.H_S_W.get(), modLoc("block/side/h_s_w_s"),  modLoc("block/side/s_w_t"));
 
         //horizontalFaceBlock(BlockInit.H_S_W.get(), , 180);
 
