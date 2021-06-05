@@ -1,8 +1,0 @@
-{
-  "parent": "block/orientable",
-  "textures": {
-    "top": "tbbm:blocks/side/s_w_t",
-    "front": "tbbm:blocks/side/h_s_w_s",
-    "side": "tbbm:blocks/side/h_s_w_s"
-  }
-}
