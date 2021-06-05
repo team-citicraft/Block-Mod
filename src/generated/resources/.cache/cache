@@ -1,7 +1,4 @@
-081ef30b251119fda408750837cbf9125f0ce84b assets/tbbm/blockstates/h_s_w.json
-6ab72a00e9eda8144a62c9f302701cab8480494b assets/tbbm/models/block/h_s_w.json
-c550dc2c062cffcf9b8865a5a67ca10a4e95fb61 assets/tbbm/models/block/h_s_w_horizontal.json
-2e5cad8d64ae8fe029b1137f31a039412e8a80e3 assets/tbbm/models/item/h_s_w.json
+cfbbc5171bd4040517a18de3f6ee46937e3c25c2 assets/tbbm/models/item/h_s_w.json
 9e06a9877825bc7d2a948623818c3a597f6f5410 assets/tbbm/models/item/panel.json
 4c7bb62557c3a03a6535e6014c45c6fa8ecc9fe1 assets/tbbm/models/item/saw.json
 10db09f82a68ae4b4d56889ecfb0e2070d2ed674 data/forge/tags/blocks/log/h_s_w.json

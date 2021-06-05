@@ -1,3 +1,8 @@
 {
-  "parent": "tbbm:block/h_s_w"
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "side": "tbbm:block/side/h_s_w_s",
+    "front": "tbbm:block/side/s_w_t",
+    "top": "tbbm:block/side/h_s_w_b"
+  }
 }

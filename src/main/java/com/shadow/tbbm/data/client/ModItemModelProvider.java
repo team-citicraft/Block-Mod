@@ -19,7 +19,7 @@ public class ModItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
         //here you will do the models for the blocks and items.
-        withExistingParent("h_s_w", modLoc("block/h_s_w"));//the first one will be the name of the file.
+        orientable("h_s_w", modLoc("block/side/h_s_w_s"),  modLoc("block/side/s_w_t"),  modLoc("block/side/h_s_w_b"));//the first one will be the name of the file.
         //the second will be location. For vanila datagenertor the location have to be block not blocks its stupid.
         //Same applies to items
 
