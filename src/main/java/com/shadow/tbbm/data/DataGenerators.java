@@ -1,6 +1,8 @@
 package com.shadow.tbbm.data;
 
 import com.shadow.tbbm.BlocksMod;
+import com.shadow.tbbm.data.models.ModBlockStateProvider;
+import com.shadow.tbbm.data.models.ModItemModelProvider;
 import net.minecraft.data.DataGenerator;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -17,6 +19,8 @@ public final class DataGenerators {
         DataGenerator gen = event.getGenerator();
         ExistingFileHelper existingFileHelper = event.getExistingFileHelper();
 
+        gen.addProvider(new ModBlockStateProvider(gen, existingFileHelper));
+        gen.addProvider(new ModItemModelProvider(gen, existingFileHelper));
         ModBlockTagsProvider blockTags = new ModBlockTagsProvider(gen, existingFileHelper);
         gen.addProvider(blockTags);
         gen.addProvider(new ModItemTagsProvider(gen, blockTags, existingFileHelper));
