@@ -1,6 +1,6 @@
 modLoader="javafml"
 loaderVersion="[36,)"
-license="All rights reserved"
+license="BSD 3-Clause License"
 
 [[mods]]
 modId="tbbm"
