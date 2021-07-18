@@ -1,6 +1,7 @@
 package com.shadow.tbbm.data;
 
 import com.shadow.tbbm.BlocksMod;
+import com.shadow.tbbm.data.loot.ModLootTables;
 import com.shadow.tbbm.data.models.ModBlockStateProvider;
 import com.shadow.tbbm.data.models.ModItemModelProvider;
 import net.minecraft.data.DataGenerator;
@@ -24,6 +25,7 @@ public final class DataGenerators {
         ModBlockTagsProvider blockTags = new ModBlockTagsProvider(gen, existingFileHelper);
         gen.addProvider(blockTags);
         gen.addProvider(new ModItemTagsProvider(gen, blockTags, existingFileHelper));
+        gen.addProvider(new ModLootTables(gen));
 
 
 

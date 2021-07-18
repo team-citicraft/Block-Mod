@@ -7,8 +7,8 @@ import net.minecraftforge.client.model.generators.ItemModelProvider;
 import net.minecraftforge.client.model.generators.ModelFile;
 import net.minecraftforge.common.data.ExistingFileHelper;
 
+//Rundata when adding a new model
 public class ModItemModelProvider extends ItemModelProvider {
-
 
     public ModItemModelProvider(DataGenerator generator, ExistingFileHelper existingFileHelper) {
         super(generator, BlocksMod.MOD_ID, existingFileHelper);
@@ -25,7 +25,9 @@ public class ModItemModelProvider extends ItemModelProvider {
         ModelFile itemhandHeld = getExistingFile(mcLoc("item/handheld"));
 
         //items
-        //example builder(itemGenerated, "copper");
+        //example
+        builder(itemGenerated, "panel");
+        builder(itemGenerated, "saw");
         //tools
         //example tool(itemhandHeld, "axe");
     }

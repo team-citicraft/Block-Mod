@@ -1,5 +1,5 @@
 {
-  "parent": "block/orientable",
+  "parent": "minecraft:block/orientable",
   "textures": {
     "top": "tbbm:block/side/s_w_t",
     "front": "tbbm:block/side/h_s_w_s",
