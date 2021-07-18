@@ -1,5 +1,10 @@
+07b98d526fcd82949eebd4bb7d320ae6308760fe assets/tbbm/models/block/h_s_w.json
+2e5cad8d64ae8fe029b1137f31a039412e8a80e3 assets/tbbm/models/item/h_s_w.json
+9e06a9877825bc7d2a948623818c3a597f6f5410 assets/tbbm/models/item/panel.json
+4c7bb62557c3a03a6535e6014c45c6fa8ecc9fe1 assets/tbbm/models/item/saw.json
 10db09f82a68ae4b4d56889ecfb0e2070d2ed674 data/forge/tags/blocks/log/h_s_w.json
 4ec3f42718f5822e376050bcf66d89276fcf8c52 data/forge/tags/blocks/storage_blocks.json
 dd4d614efa2f30ec39b559340db424ba1ce9a258 data/forge/tags/items/ingots/panel.json
 67091cd291dedc214c35e16799cbd6b034240c5f data/forge/tags/items/ingots/saw.json
 10db09f82a68ae4b4d56889ecfb0e2070d2ed674 data/forge/tags/items/storage_block/h_s_w.json
+a4dc7cff72e6a22411fc873856445c03816e1715 data/tbbm/loot_tables/blocks/h_s_w.json
